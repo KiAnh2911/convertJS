@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+textarea {
+  @apply p-2 m-2 border;
+}
+button {
+  @apply px-6 py-2 mr-2 rounded-lg bg-slate-400;
+}
+.active {
+  @apply text-white;
+}
+.items {
+  @apply px-6 py-2 bg-purple-700 rounded-lg;
+}
